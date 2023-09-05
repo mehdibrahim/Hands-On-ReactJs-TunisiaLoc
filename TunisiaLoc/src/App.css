@@ -1,0 +1,390 @@
+/***    General     ***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif
+}
+
+body {
+    margin: 0 auto
+}
+
+.m-5-auto {
+    margin: 5rem auto
+}
+
+.primary-button {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background: #222;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all .5s;
+    cursor: pointer;
+    text-transform: capitalize
+}
+
+/***    Landing Page     ***/
+h1 {
+    color: rgb(124, 168, 128);
+    font-family:'Times New Roman', Times, serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+p
+{
+    color: rgb(207, 189, 140);
+}
+.main-title {
+    padding-top: 10rem;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+
+.main-para {
+    font-size: 2.5rem;
+    text-Transform: capitalize
+}
+
+#reg_btn span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#reg_btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#reg_btn:hover span {
+  padding-right: 25px;
+}
+
+#reg_btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/***    Login Page     ***/
+h2 {
+    font-weight: 300
+}
+label{color: rgb(34, 29, 29);}
+form {
+    display: inline-block;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2rem;
+    margin: 2rem 0 1rem 0
+}
+
+form label {
+    float: left;
+    font-size: .9rem;
+    margin: 0;
+    padding: 0
+}
+
+.right-label {
+    color: rgb(14, 91, 192);
+    float: right;
+    cursor: pointer
+}
+
+input {
+    width: 15rem;
+    padding: .3rem;
+    border-radius: 5px;
+    outline: none;
+    border: none
+}
+
+#sub_btn {
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    border: none;
+    background: #222;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#sub_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+footer p {
+    margin: 0;
+    font-size: .9rem
+}
+
+/***    Register Page     ***/
+#checkbox {
+    width: 1rem
+}
+.style{
+  width: 100%;
+  padding: 0% 0%;
+  height: 100%;
+  
+}
+
+form span {
+    font-size: .8rem
+}
+
+#reset_pass_lbl {
+    float: left
+}
+
+/***    Home Page     ***/
+.home-page-title {
+    color: #222
+}
+.App {
+    margin:0% 24%;
+    width: 80%;
+  
+  }
+ 
+  .button{
+    
+    background-color: rgb(255, 255, 255);
+    color: rgb(57, 150, 85);
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    position:absolute;
+    left: 95%;
+    bottom: 95.5%;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: -25px;
+    
+    
+  }
+  .titre{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-style: italic;
+    font-family: fantasy;
+    position:absolute;
+  
+    left:25px;
+    bottom: 91%;
+    
+  }
+  
+  .Form {
+    margin: auto;
+    width: 50%;
+  }
+  
+  .myForm{
+    margin-top:10%;
+    width: 60%;
+    background-color: #cee7cd;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  
+  .formField{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid rgb(13, 6, 56);
+    border-radius: 15px;
+    box-sizing: border-box;
+  }
+  
+  
+  .myButton{
+    width: 100%;
+    background-color: #e4eee3ab;
+    color: rgb(68, 129, 84);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    
+  }
+  
+  .myList{
+    list-style: none;
+  }
+  
+  .myListButton{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    border-radius: 7px;
+    border: 1px solid #0f0731;
+    margin: 3px 5px;
+  }
+  .table{
+    background-color: rgb(230, 230, 219);
+    color: black;
+    width: 62.6%;
+    border-radius: 30px;
+    text-align: center;
+    padding: 7px;
+  }
+  /*h1{
+    color: rgb(163, 196, 138);
+    outline-color: #110d0e;
+
+  }*/
+  .FullName{
+    color: rgb(37, 99, 47);
+    font-size: 20px;
+     padding: 0% 2%;
+    font-style: italic;
+    font-family: fantasy;
+  }
+  .City{
+    color: rgb(10, 9, 10);
+    font-size: 15px;
+    padding: 0% 2%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .Adress{
+    color: rgb(10, 9, 10);
+    font-size: 15px;
+    padding: 0% 2%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .Price{
+    color: rgb(10, 9, 10);
+    font-size: 15px;
+    padding: 0% 2%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .Phone{
+    color: rgb(10, 9, 10);
+    font-size: 15px;
+    padding: 0% 2%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+ /*
+
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    font-family: "Nunito Sans", sans-serif;
+    background-color: #0d0c1d;
+    color: #f8f4f9;
+  }
+  
+  .container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .searchbar-label {
+    display: block;
+    margin: 10rem 0 2.5rem;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 0.8rem 0.5rem;
+    background-color: #0d0c1d;
+    border: none;
+    outline: 2px solid #7c2af1;
+    color: #f8f4f9;
+  }
+  
+  input[type="text"]:focus {
+    border: none;
+    outline-color: #f3414e;
+  }
+  
+  .searchbar {
+    max-width: 25rem;
+    margin-bottom: 5rem;
+  }
+  
+  .search-results {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: left;
+  }
+  
+  .search-results-item {
+    background-color: #151630;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .search-item {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .search-item:last-child {
+    margin-bottom: 0;
+  }
+  
+ 
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: #151630;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #7c2af1;
+    border-radius: 0.8rem;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  @media screen and (min-width: 2000px) {
+      html {
+          font-size: 92.5%;
+        }
+  }
+  */
+  
